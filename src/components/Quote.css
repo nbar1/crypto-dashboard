@@ -1,0 +1,25 @@
+.Quote {
+	background: #888;
+	border-radius: 3px;
+	box-sizing: border-box;
+	flex-grow: 1;
+	margin: 10px;
+	min-height: 300px;
+	min-width: 350px;
+	padding: 10px;
+	text-align: center;
+}
+
+.Quote .name {
+	font-size: 22px;
+}
+
+.Quote .price-usd {
+	color: #00dd00;
+	font-size: 32px;
+	padding: 5px 0;
+}
+
+.Quote .price-usd:before {
+	content: '$';
+}

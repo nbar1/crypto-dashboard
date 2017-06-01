@@ -1,0 +1,7 @@
+.QuotesContainer {
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+	width: 100%;
+}
