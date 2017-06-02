@@ -6,3 +6,10 @@ export const updateQuotes = (quotes) => {
 		quotes,
 	};
 };
+
+export const addQuote = (quote) => {
+	return {
+		type: CryptoActionTypes.ADD_QUOTE,
+		quote,
+	};
+};

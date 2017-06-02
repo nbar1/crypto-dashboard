@@ -1,0 +1,13 @@
+.Header {
+	background: #ddd;
+	box-shadow: 0 0 5px 0 #fff;
+	height: 50px;
+	width: 100%;
+}
+
+.Header .title {
+	color: #555;
+	float: left;
+	font-size: 24px;
+	padding: 10px;
+}

@@ -20,7 +20,6 @@ class QuotesContainer extends Component {
 		fetch('https://api.coinmarketcap.com/v1/ticker/')
 			.then(response => response.json())
 			.then(response => {
-				console.log(response);
 				this.props.actions.updateQuotes(response);
 			});
 	}
@@ -42,7 +41,6 @@ class QuotesContainer extends Component {
 	render() {
 		const actions = this.props.actions;
 
-		console.log(this.props.quotes);
 		const quoteComponents = this.props.quotes.map((quote, index) => (
 			<Quote
 				key={quote.id}

@@ -1,0 +1,23 @@
+.AddQuote {
+	float: right;
+	padding: 8px;
+}
+
+.AddQuote .send-button {
+	background-color: #848E98;
+	cursor: pointer;
+	float: right;
+	margin: 2px 3px 0 10px;
+	padding: 5px 10px;
+}
+
+.AddQuote input {
+	background: transparent;
+	border: 0;
+	border-bottom: 1px solid #848E98;
+	color: #555;
+	font-size: 24px;
+	padding: 0 5px;
+	outline: none;
+	width: 150px;
+}

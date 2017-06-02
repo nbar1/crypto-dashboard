@@ -1,0 +1,13 @@
+.PercentChanged {
+	display: inline-block;
+	padding: 0 10px;
+}
+
+.PercentChanged .percent-positive,
+.PercentChanged .percent-negative {
+	color: #00dd00;
+}
+
+.PercentChanged .percent-negative {
+	color: #b71616;
+}

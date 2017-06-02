@@ -4,14 +4,15 @@
 	box-sizing: border-box;
 	flex-grow: 1;
 	margin: 10px;
-	min-height: 300px;
-	min-width: 350px;
-	padding: 10px;
+	min-height: 200px;
+	min-width: 300px;
+	padding: 30px 10px;
+	position: relative;
 	text-align: center;
 }
 
 .Quote .name {
-	font-size: 22px;
+	font-size: 28px;
 }
 
 .Quote .price-usd {
@@ -20,6 +21,17 @@
 	padding: 5px 0;
 }
 
+.Quote .price-usd.is-negative {
+	color: #b71616;
+}
+
 .Quote .price-usd:before {
 	content: '$';
+}
+
+.Quote .percent-changed-container {
+	bottom: 30px;
+	margin-left: -10px;
+	position: absolute;
+	width: 100%;
 }
